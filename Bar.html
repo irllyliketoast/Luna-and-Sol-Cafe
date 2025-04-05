@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luna & Sol Café</title>
+    <link rel="stylesheet" href="BarStyles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Fauna+One&display=swap" rel="stylesheet">  <!-- Fancy Font -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Luna & Sol Café</h1>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#location">Location</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+	<!-- I am putting the styles directly into the HTML even though I know it is not good prectice because I couldn't get it with the CSS for some reason it was really odd. -->
+	<div class="image-container">
+		<img src="https://i.pinimg.com/736x/17/b8/f6/17b8f645b6d7440de3c2830a4402b1a4.jpg" alt="Coffee Image" style="width:100%; border-radius:10px; margin-bottom:10px;">
+		<div class="image-text top-right" style="position: absolute; top: 2%; right: 2%; width: auto; max-width: 50%; padding: 10px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 18px;">
+			Luna & Sol Café is more than just a place to sip coffee or unwind with wine—it's a piece of family history brought to life. Originally a charming bakery and plant shop that my grandparents poured their hearts into, the café holds generations of memories. After it fell into disrepair, I knew it was time to breathe new life into this beloved space. Along with my boyfriend, we refurbished it with care, keeping the essence of what my grandparents built while adding our own touch. The café's name, inspired by the contrast of gold and silver—reflecting the different personalities that we bring to it—symbolizes the perfect balance between warmth and brightness, day and night.
+		</div>
+	</div>
+	<div class="image-container">
+		<img src="https://i.pinimg.com/736x/1f/b2/ec/1fb2ec746ef7096119be4aafc523bfd7.jpg" alt="Wine Image" style="width:100%; border-radius:10px; margin-bottom:10px;">
+		<div class="image-text bottom-left" style="position: absolute; bottom: 2%; left: 2%; width: auto; max-width: 50%; padding: 10px; background-color: rgba(0, 0, 0, 0.5); color: white; font-size: 18px;">
+			As someone who adores the rich, comforting flavors of coffee, and my boyfriend who enjoys winding down with a glass of wine, we wanted Luna & Sol to be a space where both worlds could coexist. By day, you’ll find us serving up your favorite coffee brews in a cozy, inviting atmosphere perfect for reading or working. When the evening settles in, the café transforms into a relaxed haven with soft jazz and dimmed lights, perfect for savoring a glass of wine or enjoying quiet conversation. Whether you're here for the energizing buzz of a cappuccino or the smooth sophistication of a Pinot Noir, Luna & Sol Café is the place where contrasts come together in harmony.
+		</div>
+	</div>
+	
+        <div class="menu-container">
+			<div class="menu-tables">
+				<!-- Daytime Coffee Menu -->
+				<section id="menu-day" class="daytime">
+					<h2>☀️ Daytime Coffee Menu</h2>
+					<p class="ambiance">Come by and enjoy the aroma of fresh coffee. The perfect setting for working or simply reading a book.</p>
+
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Description</th>
+								<th>Price</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><strong>Cortadito</strong></td>
+								<td>Rich and bold.</td>
+								<td>$2.50</td>
+							</tr>
+							<tr>
+								<td><strong>Cappuccino</strong></td>
+								<td>Espresso with steamed milk and foam.</td>
+								<td>$3.50</td>
+							</tr>
+							<tr>
+								<td><strong>Vanilla Latte</strong></td>
+								<td>Espresso, steamed milk, and vanilla syrup.</td>
+								<td>$4.00</td>
+							</tr>
+							<tr>
+								<td><strong>Cold Brew</strong></td>
+								<td>Slow-steeped, smooth, and refreshing.</td>
+								<td>$3.75</td>
+							</tr>
+							<tr>
+								<td><strong>Matcha Latte</strong></td>
+								<td>Earthy green tea with steamed milk.</td>
+								<td>$4.50</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+				<!-- Nighttime Wine Menu -->
+				<section id="menu-night" class="nighttime">
+					<h2>🌙 Nighttime Wine Menu</h2>
+					<p class="ambiance">Dim lighting, flickering candles, and smooth jazz set the mood. The perfect ambiance for conversation and relaxation.</p>
+
+					<table>
+						<thead>
+							<tr>
+								<th>Item</th>
+								<th>Description</th>
+								<th>Price</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><strong>Merlot</strong></td>
+								<td>A smooth red wine with berry notes.</td>
+								<td>$7.00</td>
+							</tr>
+							<tr>
+								<td><strong>Chardonnay</strong></td>
+								<td>Crisp white wine with hints of oak.</td>
+								<td>$6.50</td>
+							</tr>
+							<tr>
+								<td><strong>Cabernet Sauvignon</strong></td>
+								<td>Bold and full-bodied with dark fruit flavors.</td>
+								<td>$8.00</td>
+							</tr>
+							<tr>
+								<td><strong>Pinot Noir</strong></td>
+								<td>Light and fruity with a silky texture.</td>
+								<td>$7.50</td>
+							</tr>
+							<tr>
+								<td><strong>Sangria</strong></td>
+								<td>Red wine infused with citrus and spices.</td>
+								<td>$6.00</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+			</div>
+		<img src="https://i.pinimg.com/736x/30/f9/5b/30f95b8c48da4f18be804e2f7518e2bf.jpg" alt="Sun and Moon Image" class="sun-moon">
+		</div>
+				
+        <!-- Location Section -->
+        <section id="location" style="text-align: center;">
+            <h2>Visit Us</h2>
+            <p>Find us at <strong>456 Sunset Blvd, Wine Valley</strong>.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" style="text-align: center;">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:info@lunasolcafe.com">info@lunasolcafe.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Luna & Sol Café &copy; | All Rights Reserved</p>
+    </footer>
+	<!-- For this section I watched a lot of tutorials. I know it wasn't neccesary I just thought it was cool. -->
+	<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		document.querySelectorAll("nav ul li a").forEach(anchor => {
+			anchor.addEventListener("click", function (event) {
+				event.preventDefault();
+
+				let targetId = this.getAttribute("href").substring(1);
+				let targetSection = document.getElementById(targetId);
+
+				if (targetSection) {
+					// For Menu, just scroll to the menu section -- this doesn't work
+					if (targetId === "menu") {
+						let menuSection = document.getElementById("menu");
+						menuSection.scrollIntoView({ behavior: "smooth" });
+					} else {
+						// For Location and Contact, scroll and apply highlight effect
+						targetSection.scrollIntoView({ behavior: "smooth" });
+
+						// Apply highlight effect to Location and Contact
+						setTimeout(() => {
+							targetSection.classList.add("highlight");
+							setTimeout(() => targetSection.classList.remove("highlight"), 600);
+						}, 800);
+					}
+				}
+			});
+		});
+	});
+	</script>
+</body>
+</html>
