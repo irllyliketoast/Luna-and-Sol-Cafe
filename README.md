@@ -37,7 +37,3 @@ This website serves as a digital representation of "Luna & Sol Café," designed 
 2. **Promote User Engagement**: Through interactive elements like the navigation menu and dynamic image text, users are encouraged to explore the café’s offerings and learn more about the history behind it.
   
 3. **Refine Web Development Skills**: This project helped me practice core web development skills, including HTML for content structure, CSS for design, and JavaScript for added functionality.
-
-## Conclusion
-
-Luna & Sol Café is more than just a website—it's a representation of the atmosphere and story behind the café. Through this project, I gained valuable experience in creating responsive web pages, organizing content logically, and ensuring a smooth user experience across different devices. The website offers a glimpse into the unique blend of coffee and wine culture, perfectly capturing the essence of Luna & Sol Café.
