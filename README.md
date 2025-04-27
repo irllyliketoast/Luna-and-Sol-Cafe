@@ -18,7 +18,7 @@ This mini-project is part of my Management Information Systems (UNCW MIS 310) cl
 
 - **Contact & Location Information**: Easy-to-find sections with detailed contact information and café location, making it simple for potential visitors to reach out or plan a visit.
 
-## Languages Used
+## Technology Stack
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=flat-square&logo=html5&logoColor=white)
 - Structuring the content and layout of the webpage, from headings to tables and navigation links.
 
